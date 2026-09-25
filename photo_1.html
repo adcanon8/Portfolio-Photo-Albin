@@ -4,41 +4,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <style>
-    body {
-        background-color: #f5f5f5;
-    }
-
-</style>
 
     <title>PAYSAGE</title>
+
+    <style>
+        body {
+            margin: 0;
+            background: #000;
+            color: white;
+            font-family: "DM Sans", sans-serif;
+            min-height: 100vh;
+        }
+
+        .photo-page {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px 20px;
+        }
+
+        .back {
+            align-self: flex-start;
+            color: white;
+            text-decoration: none;
+            margin-bottom: 40px;
+        }
+
+        .back:hover {
+            opacity: 0.6;
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 30px;
+        }
+
+        img {
+            max-width: 80%;
+            max-height: 70vh;
+            object-fit: contain;
+        }
+
+        .info {
+            margin-top: 35px;
+            text-align: center;
+        }
+
+        .info h2 {
+            margin-bottom: 20px;
+        }
+
+        .info p {
+            color: #aaa;
+            margin: 8px 0;
+        }
+    </style>
+
 </head>
 
-
 <body>
-     
-    <a href="index.html">
-        ← Retour
-    </a>
 
-    <h1>PAYSAGE</h1>
+    <div class="photo-page">
 
-    <img
-        src="IMG_2366.JPG"
-        alt="Photographie de voiture"
-        style="max-width: 20%; height: auto;"
-    >
+        <a href="index.html" class="back">
+            ← Retour
+        </a>
 
-    <h2>Paramètres</h2>
+        <h1>PAYSAGE</h1>
 
-    <p>Appareil : Canon R8</p>
-    <p>Objectif : Canon RF 50mm F/1.8 STM</p>
-    <p>Ouverture : f/5.6</p>
-    <p>ISO : 100</p>
-    <p>Vitesse : 1/400 s</p>
-    <p>Focale : 50 mm</p>
+        <img
+            src="IMG_2366.JPG"
+            alt="Photographie de voiture"
+        >
 
-</body>
+        <div class="info">
 
-</html>
+            <h2>Paramètres</h2>
+
+            <p>Appareil : Canon R8</p>
+            <p>Objectif : Canon RF 50mm F/1.8 STM</p>
+            <p>Ouverture : f/5.6</p>
+            <p>ISO : 100</p>
+            <p>Vitesse : 1/400 s</p>
+            <p>Focale : 50 mm</p>
+
+        </div>
+
+    </div>
