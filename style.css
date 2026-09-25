@@ -1057,3 +1057,52 @@ footer a:hover {
     position: relative;
 }
 
+/* Pages photos */
+
+body.photo-page {
+    background: #000;
+    color: white;
+    min-height: 100vh;
+}
+
+.photo-page-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+}
+
+.photo-page-container img {
+    max-width: 90vw;
+    max-height: 75vh;
+    object-fit: contain;
+}
+
+.photo-info {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.photo-info h1 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.photo-info p {
+    color: #aaa;
+    font-size: 16px;
+}
+
+.photo-back {
+    margin-top: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.photo-back:hover {
+    opacity: 0.6;
+
+    
